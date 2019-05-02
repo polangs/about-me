@@ -74,21 +74,47 @@ if(questionFive === 'y' || questionFive === 'yes' ){
 }
 
 ///////////////////////////////////////////////////////////////////////////
-//q6 for while 
-var attempt = 0;
+// //q 6
 
 
-while ('Guesses Left'){
+var attemptOne = 0;
 
-    var guessOne = prompt ('How many years do we have to keep our medical records?');
+
+while (attemptOne < 2){
+
+    var attemptGuess= prompt ('Am I 23 or 33 years old?');
      attempt++;
+    console.log (attemptGuess);
 
-    if ('If the guess is too high'){
-        'Wrong guess!'
+    if (attemptGuess = 33){
+        alert ('Hey! Nice one! I am 33!');
+    } else  (attemptGuess >30 ){
+        alert('Higher!')
     } else if {
-        ('Guess is too Low!')
-    } else {
-        ('You got it!')
+        alert('Oopsie, you got it wrong!')
     }
 }
+
+///////////////////////////////////////////////////////////////////////////
+//q 7
+
+var attemptTwo = 0;
+
+while (attemptTwo > 3){
+
+  var attemptAnswer = prompt ('How many years do we have to keep our medical records? Choices is from 1-10 years!');
+  attemptTwo++;
+  console.log (typeof attemptAnswer);
+
+  // if ('If the guess is too high'){
+
+  if (attemptAnswer > 5){
+    alert ('You got it, you got it right!');
+  } else (attemptAnswer < 5){
+    alert ('You got one more chance to guess!');
+  } else if (attemptAnswer >=5 ){ 
+    alert ('Peace Out! ' + userName);
+  }
+}  
+    
 
