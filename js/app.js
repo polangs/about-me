@@ -104,6 +104,7 @@ while (attemptTwo > 0 && attemptAnswer !== 5){
 
   var attemptAnswer = prompt ('How many years do we have to keep our medical records? Choices is from 1-10 years!');
   attemptTwo--;
+
   console.log (typeof attemptAnswer);
 
   // if ('If the guess is too high'){
@@ -124,3 +125,8 @@ while (attemptTwo > 0 && attemptAnswer !== 5){
 }
 
 
+//arrays
+//loops
+//assigning two variables to stop the loop after guessing the right answer
+//uses of breaks
+ 
