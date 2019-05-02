@@ -98,22 +98,28 @@ if(questionFive === 'y' || questionFive === 'yes' ){
 ///////////////////////////////////////////////////////////////////////////
 //q 7
 
-var attemptTwo = 0;
+var attemptTwo = 4;
 
-while (attemptTwo > 3){
+while (attemptTwo > 0 && attemptAnswer !== 5){
 
   var attemptAnswer = prompt ('How many years do we have to keep our medical records? Choices is from 1-10 years!');
-  attemptTwo++;
+  attemptTwo--;
   console.log (typeof attemptAnswer);
 
   // if ('If the guess is too high'){
 
-  if (attemptAnswer > 5){
+  if (attemptAnswer === 5){
     alert ('You got it, you got it right!');
-  } else if (attemptAnswer < 5){
-    alert ('You got one more chance to guess!');
-  } else if (attemptAnswer >=5 ){
+    console.log('User got it right!');
+  } else if (attemptAnswer < 5 && attemptTwo > 0){
+    alert ('Too low, guess again!');
+    console.log ('User guess too low');
+  } else if (attemptAnswer > 5){
+    alert ('Too high!');
+    console.log ('User guess too high!');
+  }else if(attemptAnswer === 0){
     alert ('Peace Out! ' + userName);
+
   }
 }
 
