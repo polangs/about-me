@@ -74,26 +74,26 @@ if(questionFive === 'y' || questionFive === 'yes' ){
 }
 
 ///////////////////////////////////////////////////////////////////////////
-// //q 6
+// // //q 6
 
 
-var attemptOne = 0;
+// var attemptOne = 0;
 
 
-while (attemptOne < 2){
+// while (attemptOne < 2){
 
-    var attemptGuess= prompt ('Am I 23 or 33 years old?');
-     attempt++;
-    console.log (attemptGuess);
+//   var attemptGuess= prompt ('Am I 23 or 33 years old?');
+//   attemptOne++;
+//   console.log (attemptGuess);
 
-    if (attemptGuess = 33){
-        alert ('Hey! Nice one! I am 33!');
-    } else  (attemptGuess >30 ){
-        alert('Higher!')
-    } else if {
-        alert('Oopsie, you got it wrong!')
-    }
-}
+//   if (attemptGuess > 33){
+//     alert (' Nice one! Hgher!');
+//   } else if (attemptGuess >30 ){
+//     alert('Higher!');
+//   } else if (attemptGuess > 33){
+//     alert('Oopsie, you got it wrong!');
+//   }
+// }
 
 ///////////////////////////////////////////////////////////////////////////
 //q 7
@@ -110,11 +110,11 @@ while (attemptTwo > 3){
 
   if (attemptAnswer > 5){
     alert ('You got it, you got it right!');
-  } else (attemptAnswer < 5){
+  } else if (attemptAnswer < 5){
     alert ('You got one more chance to guess!');
-  } else if (attemptAnswer >=5 ){ 
+  } else if (attemptAnswer >=5 ){
     alert ('Peace Out! ' + userName);
   }
-}  
-    
+}
+
 
