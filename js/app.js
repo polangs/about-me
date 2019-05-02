@@ -4,17 +4,22 @@ var userName = prompt ('Hi! Welcome! I\'m Paula! What is your name?');
 alert('Hi ' + userName + ' I\'m glad you are here! Let\'s play a guessing game so that you can learn more about me.');
 console.log ('The user\'s name is ' + userName );
 
+function philippinesQuestion(){
 
-var questionOne = prompt ('Did I grew up in the Philippines? Sure is a warm country!').toLowerCase();
+  var questionOne = prompt ('Did I grew up in the Philippines? Sure is a warm country!').toLowerCase();
 
-if(questionOne === 'y' || questionOne === 'yes' ){
-  alert ('You nailed it! ' + userName + ' I kinda miss the weather especially during winter season!');
-  console.log ('Users answer is' + questionOne);
+  if(questionOne === 'y' || questionOne === 'yes' ){
+    alert ('You nailed it! ' + userName + ' I kinda miss the weather especially during winter season!');
+    console.log ('Users answer is' + questionOne);
 
-}else {
-  alert('Sorry ' + userName + ' That is a NO noes!');
-  console.log('Users answer is ' + questionOne);
+  }else {
+    alert('Sorry ' + userName + ' That is a NO noes!');
+    console.log('Users answer is ' + questionOne);
+  }
+
 }
+
+philippinesQuestion();
 
 
 ////////////////////////////////////////////////////////////////////////////
@@ -129,4 +134,3 @@ while (attemptTwo > 0 && attemptAnswer !== 5){
 //loops
 //assigning two variables to stop the loop after guessing the right answer
 //uses of breaks
- 
