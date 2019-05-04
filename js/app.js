@@ -149,37 +149,8 @@ bubblyGirl();
 
 
 
-
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////
-
-
 ///////////////////////////////////////////////////////////////////////////
 ///guess1
-
-
-// var attemptOne = 0;
-
-
-// while (attemptOne < 2){
-
-//   var attemptGuess= prompt ('Am I 23 or 33 years old?');
-//   attemptOne++;
-//   console.log (attemptGuess);
-
-//   if (attemptGuess > 33){
-//     alert (' Nice one! Hgher!');
-//   } else if (attemptGuess >30 ){
-//     alert('Higher!');
-//   } else if (attemptGuess > 33){
-//     alert('Oopsie, you got it wrong!');
-//   }
-// }
-
-///////////////////////////////////////////////////////////////////////////
-//guess2
 
 
 
