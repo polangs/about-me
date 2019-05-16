@@ -12,12 +12,27 @@ h1{
     height: 100px;
     table-layout: auto;
     }
-body{
-    
-    background: content-box radial-gradient(rgb(125, 177, 226), rgb(192, 195, 196));
-
+h2{
+    font-style: italic;
+    background-size: auto;
+    font-family: Courier, Courier, monospace;
+    font-size: 30px;
+    text-shadow: 4px 4px 3px rgba(240, 203, 38, 0.774);
+    border-style: groove;
     }
+body{
 
+    background: content-box radial-gradient(rgb(125, 177, 226), rgb(192, 195, 196));
+}
+ul{
+    list-style-type: circle;
+    margin-left: 40px;
+}
+ol{
+    list-style-type: decimal;
+    margin-left: 40px;
+
+}
 .phils{
     background: whitesmoke;
     height: 50px;
